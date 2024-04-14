@@ -30,7 +30,7 @@ lib.registerMenu({
 
         for i = 1, #LobbyList do 
             options[#options+1] = {
-                label = LobbyList[i].Name.. 'Made By'.. LobbyList[i].,                    
+                label = LobbyList[i].Name.. 'Made By'.. LobbyList[i].Creator,                    
                 description = 'Players In Lobby:' .. #LobbyList[i].Players
             }
         end
